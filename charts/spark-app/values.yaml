@@ -1,0 +1,8 @@
+image:
+  repository: hiroaki0422/spark-app
+  tag: latest
+
+resources:
+  limits:
+    cpu: "1"
+    memory: "1Gi"

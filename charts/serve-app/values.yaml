@@ -1,0 +1,20 @@
+replicaCount: 2
+
+image:
+  repository: hiroaki0422/serve-app
+  tag: latest
+
+resources:
+  limits:
+    cpu: "500m"
+    memory: "256Mi"
+
+autoscaling:
+  enabled: true
+  minReplicas: 2
+  maxReplicas: 5
+  targetCPUUtilizationPercentage: 50
+
+service:
+  type: ClusterIP
+  port: 80

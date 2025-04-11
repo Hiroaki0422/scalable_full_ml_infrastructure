@@ -1,0 +1,18 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: {{ include "spark-app.fullname" . }}
+spec:
+  template:
+    spec:
+      containers:
+        - name: spark-job
+          image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+          env:
+            - name: HOME
+              value: /tmp
+          resources:
+            limits:
+              cpu: {{ .Values.resources.limits.cpu }}
+              memory: {{ .Values.resources.limits.memory }}
+      restartPolicy: Never
