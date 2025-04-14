@@ -1,4 +1,4 @@
-# End-to-End Distributed ML Pipeline with Scalable Model Deoloyment on Kubernetes Cluster
+# Distributed ML Pipeline with Scalable Model Deoloyment on Kubernetes Cluster
 <img width="1199" alt="image" src="https://github.com/user-attachments/assets/4399fe7f-96f1-40b1-ba58-c3a6a4df9d78" /> <br>
 ## About This Project
 
