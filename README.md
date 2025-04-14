@@ -1,5 +1,5 @@
 # End-to-End Distributed ML Pipeline with Scalable Model Deoloyment on Kubernetes Cluster
-<img width="1199" alt="image" src="https://github.com/user-attachments/assets/4399fe7f-96f1-40b1-ba58-c3a6a4df9d78" />
+<img width="1199" alt="image" src="https://github.com/user-attachments/assets/4399fe7f-96f1-40b1-ba58-c3a6a4df9d78" /> <br>
 ## About This Project
 
 This project is a distributed rewrite of my original [Temporal Fusion Transformer (TFT) stock forecasting pipeline & MLOps project](https://github.com/Hiroaki0422/tft_stock_preds_mlops/#readme). The goal was to simulate a more **production-ready ML pipeline** by scaling up data preprocessing, model training, and deployment on a Kubernetes cluster.
